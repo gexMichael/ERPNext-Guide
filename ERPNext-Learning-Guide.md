@@ -1,91 +1,72 @@
-# Learning ERPNext
+# 學習 ERPNext
 
-## Module 1
+## 模組 1
 
-### 1.0 Introduction
-This document assumes you are curious to know what ERPNext is about and you are interested in learning how to use it.
+### 1.0 簡介
+本文檔假設您很想知道 ERPNext 是什麼，並且有興趣學習如何使用它。
 
-### 1.1 Quick overview
-ERPnext is a software that runs on a linux computer (on virtualbox in any OS) or a server. You access it with a web browser.
-You enter information about many things related to your company or organization:
+### 1.1 快速概述
+ERPnext 是一個在 Linux 電腦（任何作業系統的 virtualbox 上）或伺服器上執行的軟體。您可以使用網頁瀏覽器存取它。您輸入與您的公司或組織相關的許多資訊：
 
-* Customers
-* Suppliers
-* Sales
-* Accounting
-* Inventory of Items (Stock)
-* Projects
-* Manufacturing
-* Retail sales
+* 顧客
+* 供應商
+* 銷售量
+* 會計
+* 物品庫存（庫存）
+* 專案
+* 製造業
+* 零售銷售
 
-It is also incorporating several domain specific functions for industries such as:
+它還整合了多個行業特定領域的功能，例如：
 
-* Education
-* Agriculture
-* Healthcare
-* Non-Profits
+* 教育
+* 農業
+* 衛生保健
+* 非營利組織
 
 
-ERPNext already has basic documentation, videos and a support group with plenty of community members that can support you on your journey to learn how to use this software.
+ERPNext 已經擁有基本的文件、影片和一個擁有大量社群成員的支援小組，可以在您學習如何使用軟體的過程中為您提供支援。
 
-ERPNext also allows your suppliers and customers to access a portal to manage
-information related to your company, and it also has a web site for e-commerce.
+ERPNext 還允許您的供應商和客戶訪問入口網站來管理與您公司相關的信息，它還有一個電子商務網站。
 
-* Supplier and Customer Portal
-* Web site
-* Comercio electronico (e-commerce)
+* 供應商和客戶門戶
+* 網站
+* Comercio Electronico（電子商務）
+* 
+### 1.2 架構
+以下課程或教學分為5個模組，將使您掌握ERPNext。
 
-### 1.2 Structure
-The following course or tutorial is divided into 5 modules, which will enable you to master ERPNext.
+> * 模組 1：ERP 簡介Next
+> * 模組 2：基本用法
+> * 模組 3：中級用法
+> * 模組 4：進階用法
+> * 模組 5：成為專家
 
-> * Module 1: Introduction to ERPNext
-> * Module 2: Basic usage
-> * Module 3: Intermediate usage
-> * Module 4: Advanced usage
-> * Module 5: Becoming an expert
+本課程分為 5 個模組。每個模組都會帶您從一般到更具體的學習，就像我們一般性地談論船舶一樣，每個附加模組都會探索有關船舶的更具體的主題，例如推進系統、艙底系統、導航、船員等。
 
-This course is divided in 5 modules. Each module will take your learning from the general
-to the more specific, in the same manner that we talk about a ship in general terms, each 
-additional module will explore the topics with more specificity about the ship, such as 
-propulsion systems, bilge systems, navigation, crew, etc. At the end we will reach detailed
-explanations about individual ship components such as engines, pumps, compass, captain's duties, etc.
-With this, you can revise the basics or go down to the details when necessary to master ERPNext.
+我個人喜歡特定的順序，以便更好地以結構化方式引用主題，因此我按級別對項目進行編號，並用小數分隔。每個模組都處於等級 1。您可以透過編號引用特定主題。這在索引時也很有幫助。每個子主題與代表父主題或主要主題的數字之間以小數點分隔。
 
-I personally like a specific order to better refer to topics in a structured manner, so I have
-numbered items by levels, separated by decimals. Each module is at a level 1. Level 2 is represented
-by a level one number, separated by a decimal and another number, and then another number
-that begins the ordinal count of the topic within the module.
-You can refer to a specific topic by the number. This also will help when indexing.
-Each sub-topic is separated by a decimal point from the number that represents the parent or principal topic.
+### 1.3 Module 1 目標
+- 如何存取或安裝和設定 ERPNext 您可以使用任何 Web 瀏覽器來管理與 ERPNext 系統相關的任何內容。
+您可以在 Linux 電腦上本機運行它，也可以在任何作業系統的虛擬伺服器中運行它。
 
-### 1.3 Module 1 Objective
-- How to access or install and configure ERPNext
-You use any web browser to manage anything related to ERPNext system.
+理想情況下，您使用具有公用 IP 位址的 Web 伺服器，以便您可以從任何連接網際網路的裝置存取本服務。
 
-You can run it locally on a linux machine, or in a virtual server on any operating system.
+本模組重點學習如何設定、配置它以及使用此實例來滿足企業或非營利組織的基本會計和管理需求。
 
-Ideally you use a web server with a public IP address so you can access the service from any internet
-connected device.
+### 1.4 取得 ERPNext 實例
 
-This module focuses on learning to set it up, configuring it and use this instance to 
-satisfy the basic accounting and management needs of a business or non-profit.
+#### 1.4.1 試用帳戶 on  erpnext.com
+最快、最簡單的學習方法是在erpnext.com上開設試用 [erpnext.com](https://www.erpnext.com)。
 
-### 1.4 Getting an instance of ERPNext
+#### 1.4.2 - 使用 VirtualBox 在任何作業系統中進行本機安裝
+一個最簡單的方法是下載預先安裝的虛擬映像以與 Oracle 的 VirtualBox 一起使用。 
+下載 VirtualBox 從 [here](https://www.virtualbox.org/)
+因為 ERPNext is [open source software](https://en.wikipedia.org/wiki/Open-source_license),
+您可以直接從此網站下載生產映像並將其用於許可證允許的任何目的：[https://erpnext.com/download](https://erpnext.com/download)
 
-#### 1.4.1 Trial account on  erpnext.com
-The quickest and easiest way to learn it, is to open a trial account on [erpnext.com](https://www.erpnext.com)
-Once set up, jump straigh to Module 2.
-
-#### 1.4.2 - Local installation in any operating system with VirtualBox
-The next easiest way is to download a pre-installed virtual image to use with Oracle's VirtualBox.
-Download VirtualBox from [here](https://www.virtualbox.org/)
-Since ERPNext is [open source software](https://en.wikipedia.org/wiki/Open-source_license),
- you can download a production image directly from this site and use for any purpose allowed in the license:
-[https://erpnext.com/download](https://erpnext.com/download)
-You run virtualBox, import the appliance and start the server. Make sure you configure the
-virtual networking cards properly. I usually use a Bridged adapter to my existing WiFi
-connection on a MAC so that the virtual machine gets an IP address from my router. This way, I can
-access it using a local IP address on the web browser.
+您執行 virtualBox，導入設備並啟動伺服器。 確保您配置了虛擬網卡正確。 我通常使用橋接適配器連接現有的 WiFi
+MAC 上的連接，以便虛擬機器可以從我的路由器取得 IP 位址。 這樣我就可以在網頁瀏覽器上使用本機 IP 位址存取它。
 
 ## Module 2:  Basic use
 
