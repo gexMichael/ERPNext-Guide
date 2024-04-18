@@ -3,7 +3,7 @@ ERPNext 的學習指南
 
 對於 ERPNext 的正體中文版用戶
 
-如需英文版本的指南 [Click here](https://github.com/sihaysistema/Guide-ERPNext/)
+如需英文版本的指南 [Click here](https://github.com/sihaysistema/ERPNext-Guide/)
 
 這是關於如何使用 ERPNext 的指南，隨著指南的編寫，它將不斷更新。
 本指南並不取代現有文檔，其目的是補充和改進現有文檔。
