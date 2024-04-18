@@ -1,14 +1,14 @@
-# ERPNext-Guide
-Guide for learning ERPNext
+# ERPNext-初學者指引
+ERPNext 的學習指南
 
-For English users of ERPNext
+對於 ERPNext 的正體中文版用戶
 
-For the spanish version of the guide [Click here](https://github.com/sihaysistema/Guia-ERPNext/)
+如需英文版本的指南 [Click here](https://github.com/sihaysistema/Guide-ERPNext/)
 
-This is a guide on how to use ERPNext, it will be constantly updating as the guide is being written.
-This guide does not replace existing Documentation, the intention is to supplement and improve the existing.
+這是關於如何使用 ERPNext 的指南，隨著指南的編寫，它將不斷更新。
+本指南並不取代現有文檔，其目的是補充和改進現有文檔。
 
-# We need contributions
-If you wish to contribute to this repository, you must do the following:
+# 我們需要貢獻
+如果您希望對此儲存庫做出貢獻，則必須執行以下操作：
 
-May 2018
+April 2024
