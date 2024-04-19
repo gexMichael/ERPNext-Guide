@@ -10,9 +10,9 @@ ERPNext 的學習指南
 
 ### 學習課綱
 * [ERPNext 的基本介紹](/Level0/0.md)
-* [Basic usage](/Level1/1.md)
-* [Intermediate usage](/Level2/2.md)
-* [Advanced usage](/Level3/2.md)
+* [基本用法](/Level1/1.md)
+* [中級用法](/Level2/2.md)
+* [進階用法](/Level3/2.md)
 * [成為專家](/Level4/4.md)
 
 ### 歡迎加入貢獻的行列
