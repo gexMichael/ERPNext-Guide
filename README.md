@@ -1,6 +1,7 @@
 # ERPNext-初學者指引
 ERPNext 的學習指南
-最完整的文檔當然還是官方的文檔，完整而詳細的內容請 [官網文檔](https://docs.erpnext.com/docs/user/manual/en/introduction/)
+
+最完整的文檔當然還是官方的文檔，完整而詳細的內容請移步 [官方文檔](https://docs.erpnext.com/docs/user/manual/en/introduction/)
 
 主要是針對 ERPNext 提供正體中文版用戶的入門指南
 
