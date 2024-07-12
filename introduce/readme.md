@@ -11,7 +11,7 @@
 * [10.銷售管理輕鬆上手：ERPNext 教程](iron30/10.md)
 * [11.ERPNext 的採購與供應鏈管理](iron30/11.md)
 * [12.人力資源管理：ERPNext 的強大工具](iron30/12.md)
-* [13.ERPNext 的項目管理功能解析](iron30/13.md)
+* [13.ERPNext 的專案管理功能解析](iron30/13.md)
 * [14.製造業如何利用 ERPNext 提高效率](iron30/14.md)
 * [15.ERPNext 的自訂與擴展技巧](iron30/15.md)
 * [16.ERPNext 的數據分析與報告生成](iron30/16.md)
